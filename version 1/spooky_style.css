@@ -1,0 +1,81 @@
+/***********START OF MENU STYLES***********/
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Medula+One);
+
+#menu{
+    position: relative;
+    background: black;
+    margin: 0 auto;
+    width: 970px; height: 40px;
+	opacity: .8;
+	border-radius:10px 10px 0 0;
+	text-align:top;
+}
+#logo {
+	position:relative;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	line-height: 40px; 
+	float: right; 
+
+}
+#menu li {
+	position:relative;
+    display:inline;
+    line-height: 40px;
+    margin: 0 15px 50px 14px;
+    list-style-type: none;
+	font-family: 'Sitka Text';
+	font-size: 20px;
+}
+#menu li a {
+    color: white; 
+    text-decoration: none;
+
+}
+#menu li a:hover{
+    background: red;
+	border-radius: 5px;
+}
+.main-content {
+	position: relative;
+	max-width: 970px; min-height: 500px;
+	padding: 15px;
+	background: grey;
+	margin: 0 auto;
+	top: 5px;
+	color: white;
+	opacity: .9;
+	font-family: 'Medula One', cursive;
+	font-size:25px;
+}
+ #p {
+	text-align: center; 
+}
+.header{
+	position: relative;
+	max-width: 1000px; height: 500px;
+	background: cyan;
+	padding: 15px;
+	margin: auto;
+	}
+h1 {
+	text-align: center;
+}
+footer {
+	position: relative;
+	top: 10px;
+	max-width: 1000px; height: 40px;
+	background: black;
+	color: white; 
+	text-align: center; 
+	line-height: 40px; 
+	font-size: 14px; 
+	margin: 0 auto;
+	border-radius: 0 0 5px 5px;
+}
+body {
+	height:100%;
+	background: url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.wallpaperup.com%2Fuploads%2Fwallpapers%2F2014%2F01%2F07%2F218486%2F681730bf2814fb119d0b104607f0d267.jpg&f=1'); 
+}

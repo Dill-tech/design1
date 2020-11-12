@@ -1,0 +1,35 @@
+	
+	h1 {
+		font-family: 'helvetica';
+		color: #3DF2E0;
+		border-top-color: #D90D58
+	}
+	body {
+		background-color: #A673D9;
+	}
+	h3{
+		margin-right: 500px;
+	}
+	h4 a{
+		text-decoration: none;
+		color: black;
+		margin-right: 500px;
+	}
+	h4 a:hover {
+		color: #F250E7;
+		margin-right: 500px;
+	}
+	p {
+		color: #3DF2E0;
+		background-color: #D90D58;
+		width: 940px; 
+		padding: 0 30px 0 30px; 
+		border-radius: 5px 5px 5px 5px;
+	}
+	.image {
+		padding-left: 500px;
+		float: left;
+	}
+	.imagecaption {
+		
+	}
