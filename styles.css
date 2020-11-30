@@ -51,6 +51,9 @@
 			border-radius: 0 0 8px 8px;
 			text-align: center; 
 		}
+		.footer {
+			padding:25px 0 0 0;
+		}
 		#menu {
 			position: relative;
 			width: 1000px; height: 75px;
