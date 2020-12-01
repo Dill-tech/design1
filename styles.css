@@ -150,6 +150,7 @@
 			float: left;
 			text-align: center;
 			background-size:200px;
+			width: 300px;
 		}
 		.right {
 			float: right;
