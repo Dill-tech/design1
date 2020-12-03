@@ -27,7 +27,7 @@
 			font-family: 'Nunito', sans-serif;
 			color:black;
 			margin:0 0 0 0;
-			padding: 0 0 0 350px;
+			padding: 0 50px 0 350px;
 		}
 		body {
 			margin: 0 auto;
@@ -75,9 +75,9 @@
 		}
 		#content {
 			position: relative;
-			width: 940px; 
+			width: 1000px; 
 			min-height: 940px;
-			padding: 0 30px 0 30px; 
+			padding: 0 0px 0 0px; 
 			margin: 0 auto;
 			background: white;
 			color: black;
@@ -89,13 +89,13 @@
 			box-shadow: 4px 4px 4px 4px #D3D3D3;
 			width: 300px;
 			float: left;
-			margin: 30px 7px 0 0;
+			margin: 30px 7px 0 20px;
 		}
 		#stat-line {
 			font-family: 'Nunito', sans-serif;
 			background: #c9c5ba;
-			margin: 30px 30px 0 0;
-			padding: 5px 30px 5px 0px;
+			margin: 40px 30px 0 0;
+			padding: 5px 0px 5px 0px;
 			width: 100%;
 		}
 		#stat-line li{
@@ -106,6 +106,23 @@
 			padding: 0 0px 0 30px;
 			margin: 0 0 0 65px;
 		}
+		#change {
+			width:200px; 
+			Height:200px;
+			background-image:url("https://sites.google.com/site/adairarthistory/_/rsrc/1491222933813/iv-later-europe-and-americas/144-fountain-marcel-duchamp/urinal.jpg")
+			, url();
+			background-size:200px 200px;
+			background-repeat: no-repeat, repeat;
+			display: inline-block;
+			border: 8px solid rgb(111,175,174);
+			border-radius: 10px;
+			Padding: 0 0 0 0;
+			margin: 50px 0 0 85px;
+		}
+		#change:hover { 
+			background-position: 700px 0;
+			transition-duration: 1.8s;
+			}
 		#footer {
 			position: relative;
 			width: 1000px; 
