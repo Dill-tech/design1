@@ -1,65 +1,49 @@
 		@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat&display=swap');
-		h1{
-			font-family: 'Montserrat', sans-serif;
+		@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap');
+		h1 {
+			font-family: 'Nunito', sans-serif;
 			position:relative;
 			width: 100%;
 			font-size: 55px;
-			color: purple;
-			margin-top: 0;
-			padding-top: 20px;
+			color: black;
+			margin: 25px 0 0 0;
+			padding: 35px 0 0 350px;
+			font-weight: 700;
 		}
-		h2{
-			font-family: cursive;
+		h2 {
+			font-family: 'Nunito', sans-serif;
 			position:relative;
 			width: 100%;
-			font-size: 55px;
-			color: rgba(255,255,0,.8);
-			margin-top: 0;
-			padding-top: 20px;
+			font-size: 35px;
+			color: black;
+			margin: 0 0 0 0;
+			padding: 0 0 0 350px;
+			font-weight: 600;
 		}
-		h3{
-			font-family: 'Carter One', cursive;
-			position:relative;
-			width: 100%;
-			font-size: 55px;
-			color: rgba(255,0,0,.8);
-			margin-top: 0;
-			padding-top: 20px;
+		p {
+			line-height:28px;
+			font-size:20px;
+			font-family: 'Nunito', sans-serif;
+			color:black;
+			margin:0 0 0 0;
+			padding: 0 0 0 350px;
 		}
-		h4{
-			font-family: 'Allan'; 
-			position:relative;
-			width: 100%;
-			font-size: 45px;
-			color: rgba(255,255,0,.8);
-			margin-top: 0;
-			padding-top: 20px;
-		}
-		#footer {
-			position: relative;
-			width: 1000px; 
-			height: 75px;
-			background: #c9c5ba;
+		body {
 			margin: 0 auto;
-			padding: 0;
-			list-style-type: none;
-			border-radius: 0 0 8px 8px;
-			text-align: center; 
-		}
-		.footer {
-			padding:25px 0 0 0;
+			background-image:linear-gradient(to bottom, #ebbab9, #7c98b3);
 		}
 		#menu {
 			position: relative;
 			width: 1000px; height: 75px;
 			background: #c9c5ba;
 			margin: 0 auto;
-			padding: 0;
+			padding: 0 0 0 0;
 			list-style-type: none;
 			border-radius: 8px 8px 0 0;
 			text-align: right; 
 			color: black;
+			top: 25px;
 		}
 		#menu li {
 			display: inline; 
@@ -73,7 +57,7 @@
 			font-family: 'Roboto Condensed', sans-serif;
 		}
 		#menu li a:hover {
-			color: purple;
+			color: ;
 		}
 		#logo {
 			line-height: 75px; 
@@ -89,19 +73,45 @@
 		#logo a:hover {
 			color: black;
 		}
-		body {
-			margin: 0 auto;
-			background-image:linear-gradient(to bottom, #ebbab9, #7c98b3);
-		}
 		#content {
-			position: center;
-			width: 940px; min-height: 940px;
+			position: relative;
+			width: 940px; 
+			min-height: 940px;
 			padding: 0 30px 0 30px; 
 			margin: 0 auto;
 			background: white;
 			color: black;
 			font-family:  'Montserrat', sans-serif;
-	}
+		}
+		.thumbnail {
+			padding: 0 0 0 0;
+			border-radius:10px;
+			box-shadow: 4px 4px 4px 4px #D3D3D3;
+			width: 300px;
+			float: left;
+			margin: 30px 7px 0 0;
+		}
+		#stat-line {
+			font-family: 'Nunito', sans-serif;
+			background: #c9c5ba;
+			margin: 30px 0 0 0;
+			padding: 5px 30px 5px 30px;
+		}
+		#footer {
+			position: relative;
+			width: 1000px; 
+			height: 75px;
+			background: #c9c5ba;
+			margin: 0 auto;
+			padding: 0;
+			list-style-type: none;
+			border-radius: 0 0 8px 8px;
+			text-align: center; 
+			bottom: 25px;
+		}
+		.footer {
+			padding:25px 0 0 0;
+		}
 		.topnav {
 			overflow: hidden;
 			padding-top: 25px;
@@ -121,30 +131,10 @@
 		nav li { 
 			margin:0;
 		}
-		p {
-			line-height:30px;
-			font-size:20px;
-			font-family: 'Montserrat', sans-serif;
-			color:black;
-		}
-		.thumbnail {
-			padding: 5px;
-			border-radius:10px;
-			box-shadow: 4px 4px 4px 4px #D3D3D3;
-			background: ;
-		}
-		.left {
-			float: left;
-			margin: 30px 7px 0 0;
-		}
 		.float-left-area {
 			position: relative;
 			width: 25%;
 			float: left;
-		}
-		.inner-left {
-			float: left;
-			text-align: center;
 		}
 		.right {
 			float: right;
@@ -155,15 +145,15 @@
 			margin: 5px auto;
 		}
 		.jumbotron {
-				position:center;
-				width:100%; min-height: 50px;
-				background: purple;
-				margin: 0 auto;
-				color:rgba(255,255,0,.8);
-				font-family: 'Montserrat', sans-serif;
-				text-align:center;
-				font-size:25px;
-			}
+			position:center;
+			width:100%; min-height: 50px;
+			background: purple;
+			margin: 0 auto;
+			color:rgba(255,255,0,.8);
+			font-family: 'Montserrat', sans-serif;
+			text-align:center;
+			font-size:25px;
+		}
 		.up{
 			float:up;
 			margin:0 auto;
@@ -181,29 +171,29 @@
 			padding:20px 0;
 		} 
 		form {
-		width: 500px;
-		margin:0 auto;
+			width: 500px;
+			margin:0 auto;
 		}
 		label {
-		display:block;
-		margin: 5px 0 5px 20px;
-		font: 18px 'Montserrat', sans-serif;
+			display:block;
+			margin: 5px 0 5px 20px;
+			font: 18px 'Montserrat', sans-serif;
 		}
 		input {
-		width:250px;
-		margin: 0 0 0 20px;
+			width:250px;
+			margin: 0 0 0 20px;
 		}
 		textarea {
 			width:250px;
 			margin: 0 0 0 20px
 		}
 		fieldset {
-		border:2px solid black;
-		background-color:rgba(255,255,0,.9);
-		padding: 0 0 20px 0;
+			border:2px solid black;
+			background-color:rgba(255,255,0,.9);
+			padding: 0 0 20px 0;
 		}
 		.labelone{
-		margin-top: 10px;	
+			margin-top: 10px;	
 		}
 		.btn{
 			width:125px;
