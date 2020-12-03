@@ -76,7 +76,7 @@
 		#content {
 			position: relative;
 			width: 1000px; 
-			min-height: 940px;
+			min-height: 1000px;
 			padding: 0 0px 0 0px; 
 			margin: 0 auto;
 			background: white;
@@ -107,36 +107,53 @@
 			margin: 0 0 0 65px;
 		}
 		#change {
-			width:200px; 
-			Height:200px;
+			width:250px; 
+			Height:300px;
 			background-image:url("https://sites.google.com/site/adairarthistory/_/rsrc/1491222933813/iv-later-europe-and-americas/144-fountain-marcel-duchamp/urinal.jpg")
 			, url();
-			background-size:200px 200px;
+			background-size:250px 300px;
 			background-repeat: no-repeat, repeat;
 			display: inline-block;
 			border: 5px solid #FCC9C5;
 			border-radius: 10px;
 			Padding: 0 0 0 0;
-			margin: 40px 0 0 85px;
+			margin: 25px 0 0 35px;
 		}
 		#change:hover { 
 			background-position: 700px 0;
 			transition-duration: 2s;
 		}
 		#change2 {
-			width:200px; 
-			Height:200px;
+			width:250px; 
+			Height:300px;
 			background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b345c6e6-9109-47b5-b8d5-82290e43c736/ddsq9fv-f730c248-51fb-4172-8469-0c5a8bd251cd.jpg/v1/fill/w_1280,h_1657,q_75,strp/bad_egg_by_theobscureartistguy_ddsq9fv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xNjU3IiwicGF0aCI6IlwvZlwvYjM0NWM2ZTYtOTEwOS00N2I1LWI4ZDUtODIyOTBlNDNjNzM2XC9kZHNxOWZ2LWY3MzBjMjQ4LTUxZmItNDE3Mi04NDY5LTBjNWE4YmQyNTFjZC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.2DjYwxfNlQQKcbvM15JkrCmVkemMX7wM1A-GIpnT1EE")
 			, url();
-			background-size:200px 200px;
+			background-size:250px 300px;
 			background-repeat: no-repeat, repeat;
 			display: inline-block;
 			border: 5px solid #FCC9C5;
 			border-radius: 10px;
 			Padding: 0 0 0 0;
-			margin: 40px 0 0 85px;
+			margin: 25px 0 0 35px;
 		}
 		#change2:hover { 
+			background-position: 700px 0;
+			transition-duration: 2s;
+		}
+		#change3 {
+			width:250px; 
+			Height:300px;
+			background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b345c6e6-9109-47b5-b8d5-82290e43c736/ddxxhb7-01456db5-e424-4dfc-ae0a-6fb1e51ff97b.jpg/v1/fill/w_1280,h_1502,q_75,strp/6_fanart_by_theobscureartistguy_ddxxhb7-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xNTAyIiwicGF0aCI6IlwvZlwvYjM0NWM2ZTYtOTEwOS00N2I1LWI4ZDUtODIyOTBlNDNjNzM2XC9kZHh4aGI3LTAxNDU2ZGI1LWU0MjQtNGRmYy1hZTBhLTZmYjFlNTFmZjk3Yi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uWfO1RGVLvmHNgo-VPaVhxxRsDwkwveD5nNW3OR5_9Y")
+			, url();
+			background-size:250px 300px;
+			background-repeat: no-repeat, repeat;
+			display: inline-block;
+			border: 5px solid #FCC9C5;
+			border-radius: 10px;
+			Padding: 0 0 0 0;
+			margin: 25px 0 0px 35px;
+		}
+		#change3:hover { 
 			background-position: 700px 0;
 			transition-duration: 2s;
 		}
